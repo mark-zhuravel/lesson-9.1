@@ -1,0 +1,72 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #F6F7FF;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 34px 100px;
+}
+
+.logo__image {
+    width: 23px;
+    height: 23px;
+}
+
+.logo__name {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F1E25;
+}
+
+.menu {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 38px;
+}
+
+.menu__item {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707C87;
+    text-decoration: none;
+
+}
+.menu__item:hover {
+    color: #2C36F2;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 220px;
+    padding-top: 6px;
+}
+
+.account__txt {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F1E25;
+    text-decoration: none;
+}
+
+.account__txt:hover {
+    font-weight: 700;
+}
+
+.container {
+    background-image: url(img/background.png)
+}
