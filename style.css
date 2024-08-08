@@ -115,3 +115,65 @@ header {
     margin-top: 85px;
     margin-left: 251px;
 }
+
+.content {
+    height: 554px;
+    background-color: #FFFFFF;
+    display: flex;
+    column-gap: 62px;
+}
+
+.content__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    margin-top: 165px;
+    margin-left: 250px;
+    height: 242px;
+}
+
+.content__heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1F1E25;
+    margin: 0;
+}
+
+.content__txt {
+    font-size: 20px;
+    font-weight: 400;
+    color: #707C87;
+    line-height: 28px;
+    width: 379px;
+    margin: 0;
+}
+
+.content__button {
+    background-color: #2C36F2;
+    color: #F6F7FF;
+    width: 201px;
+    height: 11px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 25px 25px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__card {
+    width: 436px;
+    height: 314px;
+    margin-top: 120px;
+}
+
+/*footer {
+    height: 224px;
+    background-color: #F6F7FF;
+}
+
+.footer__info {
+    width: 252px;
+}
