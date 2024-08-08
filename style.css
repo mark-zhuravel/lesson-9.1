@@ -68,5 +68,50 @@ header {
 }
 
 .container {
-    background-image: url(img/background.png)
+    height: 400px;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.container__info {
+    margin-top: 115px;
+    margin-left: 250px;
+}
+
+.container__heading {
+    font-size: 54px;
+    font-weight: 700;
+    color: #F6F7FF;
+    margin: 0;
+}
+
+.container__txt {
+    font-size: 20px;
+    font-weight: 500;
+    color: #E0E1EA;
+    margin-top: 5px; 
+    margin-bottom: 49px;
+}
+
+.container__button {
+    background-color: #F6F7FF;
+    color: #707C87;
+    width: 234px;
+    height: 53px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 125px;
+}
+
+.container__card {
+    width: 341px;
+    height: 216px;
+    margin-top: 85px;
+    margin-left: 251px;
 }
